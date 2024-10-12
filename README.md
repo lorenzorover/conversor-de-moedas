@@ -1,6 +1,8 @@
 # Conversor de Moedas
 ### Desafio 02 - Curso One-Alura
 Programa desenvolvido durante o curso One da plataforma Alura, utilizando uma API de conversão de moedas.<br>
+link da API:<br>
+https://www.exchangerate-api.com <br>
 
 <br>
 
@@ -61,7 +63,7 @@ https://www.exchangerate-api.com/docs/supported-currencies
   <table>
     <tr>
       <th>
-        Classe
+        Estrutura do Projeto
       </th>
       <th width="450px">
         Funcionalidade(s)
