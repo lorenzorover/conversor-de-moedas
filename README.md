@@ -12,9 +12,12 @@ O usuário poderá escolher as seguintes opções no console do programa:
 - Poderá escolher as moedas retornadas;
 - Caso não queira escolher nenhuma moeda, há uma opção para que o programa retorne 6 moedas fixas;
 
-<strong>Nota:</strong> Caso o usuário digite uma moeda que está na opção das moedas fixas, ela será contada como uma das 6 moedas.
+<strong>Nota:</strong> Caso o usuário digite uma moeda que está na opção das moedas fixas, ela será contada como uma das 6 moedas.<br>
 
-Para saber todos os tipos de moeda que a API suporta, acesse:<br>
+❗ <strong>Cuidado:</strong> Não foram tratadas algumas excessões, como o usuário poder escrever o que quiser no console e digitar uma moeda que não existe, podendo causar erros.<br>
+Então, tome cuidado ao digitar e utilizar o programa.<br>
+
+⭐ Para saber todos os tipos de moeda que a API suporta, acesse:<br>
 https://www.exchangerate-api.com/docs/supported-currencies
 
 <br>
@@ -61,7 +64,7 @@ https://www.exchangerate-api.com/docs/supported-currencies
         Classe
       </th>
       <th width="450px">
-        Funcionalidade
+        Funcionalidade(s)
       </th>
     </tr>
     <tr>
@@ -107,3 +110,11 @@ https://www.exchangerate-api.com/docs/supported-currencies
     </tr>
   </table>
 </div>
+
+<br>
+
+## Autor
+| [<img loading="lazy" src="https://avatars.githubusercontent.com/u/168394448?v=4" width=115><br><sub>Lorenzo Rover</sub>](https://github.com/lorenzorover) |
+| :---: |
+<br>
+Desenvolvido em outubro de 2024.
