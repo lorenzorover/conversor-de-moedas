@@ -14,6 +14,8 @@ O usuário poderá escolher as seguintes opções no console do programa:
 
 <strong>Nota:</strong> Caso o usuário digite uma moeda que está na opção das moedas fixas, ela será contada como uma das 6 moedas.
 
+<br>
+
 ## 📚 Tecnologias utilizadas
 
 <div>
@@ -42,6 +44,51 @@ O usuário poderá escolher as seguintes opções no console do programa:
         <img alt="Static Badge" src="https://img.shields.io/badge/intelij-black?style=for-the-badge">
       </td>
     </tr>
-    
   </table>
 </div>
+
+<br>
+
+## Classes
+
+<div>
+  <table>
+    <tr>
+      <th>
+        Classe
+      </th>
+      <th width="450px">
+        Funcionalidade
+      </th>
+    </tr>
+    <tr>
+      <th>
+        MoedaJson
+      </th>
+      <td>
+        Uma classe record que é a entrada da requisição e devolve um map do conversion_rates, que seria a conversão de moedas com a key do json e o valor da moeda
+      </td>
+    </tr>
+    <tr>
+      <th>
+        ConsultaMoeda
+      </th>
+      <td>
+        Classe que utiliza a MoedaJson para requisição dos dados. Aqui ela faz a requisição da API e já é responsável por tratar e converter o Json para Gson (objeto).
+      </td>
+    </tr>
+    <tr>
+      <th>
+        Moeda
+      </th>
+      <td>
+        Classe objeto com construtores e getters e setters simples, para ser utilizado como uma lista de objeto.
+      </td>
+    </tr>
+    <tr>
+      
+    </tr>
+  </table>
+</div>
+
+https://www.exchangerate-api.com/docs/supported-currencies
