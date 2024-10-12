@@ -7,9 +7,6 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        // API Key: 4d700d2ac67064b23dd1d76e
-        // Example Request: https://v6.exchangerate-api.com/v6/4d700d2ac67064b23dd1d76e/latest/USD
-
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("""
@@ -17,6 +14,7 @@ public class Main {
                 Seja bem vindo ao conversor de moedas!
                 
                 Digite a moeda que você quer converter e seu valor (apenas a sigla, ex.: BRL, USD, EUR).
+                Nota: Pode ser escrita em minúsculo.
                 Nome:""");
         String moedaEscolhida = scanner.next();
 
