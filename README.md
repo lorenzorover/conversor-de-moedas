@@ -1,4 +1,4 @@
-# Conversor de Moedas
+![image](https://github.com/user-attachments/assets/b2bc2075-6a7b-44e5-b42f-e25f5bde3abf)# Conversor de Moedas
 ### Desafio 02 - Curso One-Alura
 Programa desenvolvido durante o curso One da plataforma Alura, utilizando uma API de conversão de moedas.<br>
 link da API:<br>
@@ -21,6 +21,12 @@ Então, tome cuidado ao digitar e utilizar o programa.<br>
 
 ⭐ Para saber todos os tipos de moeda que a API suporta, acesse:<br>
 https://www.exchangerate-api.com/docs/supported-currencies
+
+<br>
+
+## Utilização
+
+
 
 <br>
 
