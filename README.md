@@ -14,6 +14,9 @@ O usuário poderá escolher as seguintes opções no console do programa:
 
 <strong>Nota:</strong> Caso o usuário digite uma moeda que está na opção das moedas fixas, ela será contada como uma das 6 moedas.
 
+Para saber todos os tipos de moeda que a API suporta, acesse:<br>
+https://www.exchangerate-api.com/docs/supported-currencies
+
 <br>
 
 ## 📚 Tecnologias utilizadas
@@ -86,9 +89,21 @@ O usuário poderá escolher as seguintes opções no console do programa:
       </td>
     </tr>
     <tr>
-      
+      <th>
+        Main
+      </th>
+      <td>
+        Classe principal que utiliza a classe Scanner e console como meio de comunicação com o usuário.<br>
+        Nela é criada uma lista de objeto Moeda, que é mandada para a classe CalculaConversao.
+      </td>
+    </tr>
+    <tr>
+      <th>
+        CalculaConversao
+      </th>
+      <td>
+        Classe com método estático simples, que serve para calcular o valor das moedas corretamente, atualizando o valor da lista com valor formatado com duas casas decimais.
+      </td>
     </tr>
   </table>
 </div>
-
-https://www.exchangerate-api.com/docs/supported-currencies
